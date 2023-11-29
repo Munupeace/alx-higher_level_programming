@@ -17,4 +17,4 @@ elif number > 0 and lastdigit > 5:
 elif number > 0 and lastdigit <= 5:
     print(begin + str(number) + " is " + str(lastdigit) + end)
 elif number == 0 and lastdigit == 0:
-    print(begin + str(lastdigit) + " is " + str(lastdigit) + mid)
+    print(begin + " is " + str(lastdigit) + mid)
