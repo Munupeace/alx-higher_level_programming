@@ -16,3 +16,5 @@ elif number > 0 and lastdigit > 5:
     print(begin + " is " + str(lastdigit) + " and is greater than 5")
 elif number > 0 and lastdigit <= 5:
     print(begin + str(number) + " is " + str(lastdigit) + end)
+elif number == 0:
+    print(begin + str(number) + "is" + str(lastdigit) + " and is 0")
