@@ -3,4 +3,4 @@ for value in range(0, 100):
     if value == 99:
         print("{}".format(value))
     else:
-        print("{:02d}, ".format(value))
+        print("{:02d}, ".format(value), end='')
